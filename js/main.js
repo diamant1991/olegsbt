@@ -29,6 +29,26 @@
     }
 	});
 
+$('.similar-carousel').owlCarousel({
+	loop:true,
+	nav: true,
+	dots: false,
+	responsive:{
+      0:{
+          items:2
+      },
+      575:{
+          items:3
+      },
+      767:{
+          items:4
+      },
+      1199:{
+          items:6
+      }
+  }
+});
+
 if(window.matchMedia('(max-width: 767px)').matches){
 	$('.f-menu__title').click(function(event) {
 		var content = $(this).next()
