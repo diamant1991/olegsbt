@@ -584,12 +584,20 @@ body {
   max-width: 255px;
   margin: 0 auto;
 }
-
-.p-scrollslider__img img {
-  width: 100%;
-  display: block;
+.p-scrollslider__img{
+  text-align: center;
 }
-
+.p-scrollslider__img img {
+  width: auto !important;
+  max-width: 100%;
+  height: auto;
+  max-height: 300px;
+  display: inline-block;
+}
+.product-img__item > div{
+  width: 100%;
+  text-align: center;
+}
 .p-scrollslider__title {
   font-weight: 700;
   font-family: "Polaris-Condensed-Bold", sans-serif;
@@ -1648,7 +1656,9 @@ body {
 .similar-item{
   padding-bottom: 30px;
 }
-
+.owl-carousel .owl-item img{
+  display: inline-block;
+}
 .similar-content .owl-carousel .owl-item img{
   display: inline-block;
   width: auto;
