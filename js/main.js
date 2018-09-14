@@ -49,6 +49,25 @@ $('.similar-carousel').owlCarousel({
   }
 });
 
+$('.card-slider').owlCarousel({
+	loop:true,
+	nav: true,
+	dots: true,
+	responsive:{
+      0:{
+          items:1
+      },
+      575:{
+          items:1
+      },
+      1199:{
+          items:2
+      }
+  }
+});
+
+
+
 if(window.matchMedia('(max-width: 767px)').matches){
 	$('.f-menu__title').click(function(event) {
 		var content = $(this).next()
