@@ -1833,3 +1833,78 @@ body {
   text-align: left;
   margin-top: 50px;
 }
+.card-tab{
+  margin-bottom: 4.8rem;
+}
+.card-tab__menu__item{
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  color: #b6b6b6;
+  font-weight: 700;
+  font-size: 1.8rem;
+  text-decoration: none !important;
+  margin-right: 4.8rem;
+}
+  .card-tab__menu__item.active:after{
+    content: "";
+    background-color: #e3c29d;
+    width: 100%;
+    height: .3rem;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    bottom: -11px;
+  }
+.card-tab__menu__item:hover{
+  color: #555;
+}
+.card-tab{
+  padding-bottom: 10px;
+  border-bottom: .1rem solid #ddd;
+}
+.card-tab__pane img{
+  max-width: 100%;
+  height: auto;
+}
+.card-tab__header > div{
+  text-align: left;
+}
+.card-tab__pane{
+  font-size: 15px;
+}
+.card-tab__pane p{
+  margin-bottom: 2.4rem;
+}
+.card-tab__pane h6{
+  font-weight: bold;
+  margin-bottom: 2.4rem;
+}
+.card-subscribe a{
+  display: inline-block;
+  vertical-align: middle;
+  color: #000;
+  font-size: 20px;
+}
+.card-subscribe a{
+  margin-right: 20px;
+}
+.card-all-link{
+  text-decoration: none !important;
+  color: #000 !important;
+  border-bottom: 1px solid;
+}
+.card-all-link:hover{
+  opacity: 0.7;
+}
+.card-tab__phone a{
+  color: #000;
+  font-weight: bold;
+}
+.card-tab__phone a:hover{
+  opacity: 0.8;
+}
+.p-size__select select{
+  width: 100%;
+  height: 40px;
+}
