@@ -1908,3 +1908,28 @@ body {
   width: 100%;
   height: 40px;
 }
+.card-contacts{
+  margin-top: 30px;
+  text-align: center;
+  border-top: .1rem solid #e6e6e6;
+  padding: 2.4rem 0 4.8rem;
+}
+.card-contacts__item{
+  display: inline-block;
+  vertical-align: middle;
+  margin: 10px;
+  margin-top: 0;
+}
+.card-contacts__item *{
+  display: inline-block;
+  vertical-align: middle;
+}
+.card-contacts h4{
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+  line-height: 1.55;
+}
+.card-contacts a{
+  color: #222;
+}
