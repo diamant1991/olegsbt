@@ -66,6 +66,21 @@ $('.card-slider').owlCarousel({
   }
 });
 
+$('.accordion-btn').click(function(event) {
+	var text = $(this).next()
+	var plus = $(this).find('.accordion-plus')
+	if(text.is(':hidden')){
+		$('.accordion-text').slideUp(250)
+		$('.accordion-plus').text('+')
+		text.slideDown(250)
+		plus.text('-')
+	}
+	else{
+		text.slideUp(250)
+		plus.text('+')
+	}
+});
+
 
 
 if(window.matchMedia('(max-width: 767px)').matches){

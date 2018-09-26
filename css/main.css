@@ -1955,12 +1955,14 @@ body {
   background: #f5f5f5;
   padding: 50px 0;
 }
-h4.item-title{
+h4.item-title,
+.text-block h4{
   font-weight: 700;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   margin-bottom: 2.4rem;
   line-height: 1.55;
 }
+
 .contact-block{
   padding: 24px;
   height: 100%;
@@ -1975,16 +1977,18 @@ h4.item-title{
 .accordion-item{
   margin-top: 15px;
   background: #fff;
-  padding: 24px;
+  padding: 0 24px;
 }
 .accordion-btn{
   font-size: 1.8rem;
   font-weight: 700;
+  padding-top: 24px;
+  padding-bottom: 24px;
   text-transform: uppercase;
   cursor: pointer;
 }
 .accordion-text{
-  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .form-title{
   margin-bottom: 2.4rem;
@@ -2047,4 +2051,53 @@ h4.item-title{
 }
 .btn-form:hover{
   opacity: 0.7;
+}
+.text-block{
+  font-size: 1.5rem;
+  line-height: 1.46;
+}
+.text-block p{
+  margin-bottom: 2.4rem;
+}
+.contact-block p + p{
+  margin-top: 2.4rem;
+}
+.text-block a{
+  color: #222;
+  border-bottom: 1px solid;
+  text-decoration: none !important;
+}
+.text-block a:hover{
+  opacity: .7;
+}
+.text-block b{
+  font-weight: 700;
+}
+.text-block ol{
+  list-style: decimal;
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+.text-block ul{
+  list-style-type: square;
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+.text-block ol li,
+.text-block ul li{
+  margin-bottom: 10px;
+}
+.contact-block a{
+  color: #222;
+  border-bottom: 1px solid;
+  text-decoration: none !important;
+}
+.contact-block a:hover{
+  opacity: .7;
+}
+.contact-block b{
+  font-weight: 700;
+}
+.accordion-text{
+  display: none;
 }
