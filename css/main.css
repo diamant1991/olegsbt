@@ -2277,3 +2277,44 @@ h1.page-title{
 .footer .phone-nav .fas{
   color: #fff;
 }
+.save-password{
+  position: relative;
+}
+.tooltip-block{
+  position: absolute;
+  background-color: rgb(245, 245, 245);
+  box-shadow: 0 0 3px #ddd;
+  width: 315px;
+  max-width: 315px;
+  padding: 10px;
+  font-weight: 400;
+  left: 105%;
+  top: -85px;
+  z-index: 2;
+  font-size: 1.1rem;
+  line-height: 1.87rem;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+}
+.tooltip-block h5{
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+.tooltip-block p + p{
+  margin-top: 15px;
+}
+.tooltip-link:hover + .tooltip-block{
+  opacity: 1;
+  visibility: visible;
+}
+.black-link{
+  text-decoration: underline;
+  color: #000 !important;
+}
+.reset-password p{
+  margin-bottom: 30px;
+}
